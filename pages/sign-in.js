@@ -4,24 +4,14 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico"/>
+        <title>Next Starter - Sign In</title>
+        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <h2>Google</h2>
-        <input type={'search'}/>
       </main>
 
       <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="logo"/>
-        </a>
       </footer>
 
       <style jsx>{`
@@ -167,6 +157,11 @@ export default function Home() {
 
         * {
           box-sizing: border-box;
+        }
+        
+        a {
+          text-decoration: none;
+          
         }
       `}</style>
     </div>
